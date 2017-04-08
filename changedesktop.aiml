@@ -9,11 +9,19 @@
                <li>Right away, sir!</li>
                <li>On it!</li>
                <li>Changed the wallpaper, sir!</li>
+	       <li>As you say!</li>
             </random>
             <system> python wallpaper.py</system>
         </template>
     </category>
-
+    
+    <category>
+        <pattern>* CHANGE WALLPAPER *</pattern>
+        <template>
+            <srai>CHANGE WALLPAPER</srai>
+        </template>
+    </category>
+    
     <category>
         <pattern>* CHANGE WALLPAPER *</pattern>
         <template>
